@@ -1,0 +1,71 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:longClickable="false"
+    android:padding="1dp"
+    android:paddingBottom="0dp">
+
+    <Button
+        android:id="@+id/btnfirst"
+        android:layout_width="250dp"
+        android:layout_height="46dp"
+        android:background="@drawable/button_styleyear"
+        android:foreground="@drawable/ic_arrow_forward_black_24dp"
+        android:foregroundGravity="center|right"
+        android:text="1st Year CSE "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.267" />
+
+    <Button
+        android:id="@+id/btnsecond"
+        android:layout_width="250dp"
+        android:layout_height="46dp"
+        android:background="@drawable/button_styleyear"
+        android:foreground="@drawable/ic_arrow_forward_black_24dp"
+        android:foregroundGravity="center|right"
+        android:text="2nd Year CSE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnfirst"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <Button
+        android:id="@+id/btnthird"
+        android:layout_width="250dp"
+        android:layout_height="46dp"
+        android:background="@drawable/button_styleyear"
+        android:foreground="@drawable/ic_arrow_forward_black_24dp"
+        android:foregroundGravity="center|right"
+        android:text="3rd Year CSE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnsecond"
+        app:layout_constraintVertical_bias="0.125" />
+
+    <Button
+        android:id="@+id/btnfour"
+        android:layout_width="250dp"
+        android:layout_height="46dp"
+        android:background="@drawable/button_styleyear"
+        android:foreground="@drawable/ic_arrow_forward_black_24dp"
+        android:foregroundGravity="center|right"
+        android:foregroundTint="#000000"
+        android:text="4th Year CSE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnthird"
+        app:layout_constraintVertical_bias="0.149" />
+</androidx.constraintlayout.widget.ConstraintLayout>

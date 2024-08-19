@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:tag="homeFragment"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="top"
+            android:background="@drawable/took" />
+
+        <Button
+            android:id="@+id/btnpost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-50dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@id/toolbar"
+            android:background="@drawable/button_style"
+            android:text="+"
+            android:visibility="gone"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btnprofile"
+            android:layout_width="43dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_prof"
+            android:backgroundTint="#FFFFFF"
+            android:foreground="@drawable/ic_person_black_24dp"
+            android:foregroundTint="#2D3536"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp" />
+
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/content_house"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_gravity="top" />
+
+
+</LinearLayout>

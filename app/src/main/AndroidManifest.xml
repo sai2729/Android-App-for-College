@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myksvit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Uploadpqp42Activity"></activity>
+        <activity android:name=".Uploadpqp41Activity"></activity>
+        <activity android:name=".Uploadpqp32Activity"></activity>
+        <activity android:name=".Uploadpqp31Activity"></activity>
+        <activity android:name=".Uploadpqp22Activity"></activity>
+        <activity android:name=".Uploadpqp21Activity"></activity>
+        <activity android:name=".Uploadpqp12Activity"></activity>
+        <activity android:name=".Uploadpqp11Activity" />
+        <activity android:name=".pqp4cse" />
+        <activity android:name=".pqp3cse" />
+        <activity android:name=".pqp2cse" />
+        <activity android:name=".pqp1cse" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".facultysignup" />
+        <activity android:name=".Upload42Activity" />
+        <activity android:name=".Upload41Activity" />
+        <activity android:name=".Upload12Activity" />
+        <activity android:name=".Upload11Activity" />
+        <activity android:name=".Upload22Activity" />
+        <activity android:name=".Upload21Activity" />
+        <activity android:name=".Upload32Activity" />
+        <activity android:name=".Upload31Activity" />
+        <activity android:name=".mat4cse" />
+        <activity android:name=".mat3cse" />
+        <activity android:name=".mat2cse" />
+        <activity android:name=".mat1cse" />
+        <activity android:name=".UploadActivity" />
+        <activity android:name=".SingleEventPostActivity" />
+        <activity android:name=".EventPostActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PostActivity"
+            android:parentActivityName=".HouseActivity" />
+        <activity android:name=".HouseActivity" />
+        <activity android:name=".View_PDF_Files" />
+        <activity android:name=".SignupActivity" />
+        <activity
+            android:name=".SinglePostActivity"
+            android:parentActivityName=".HouseActivity" />
+    </application>
+
+</manifest>

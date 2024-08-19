@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Myksvit</string>
+    <string name="title_activity_house">HouseActivity</string>
+    <string name="title_activity_schedule">ScheduleActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <string-array name="Branch">
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>CIVIL</item>
+        <item>MECH</item>
+        <item>EEE</item>
+    </string-array>
+
+    <string-array name="Year">
+        <item>FIRST</item>
+        <item>SECOND</item>
+        <item>THIRD</item>
+        <item>FOURTH</item>
+    </string-array>
+
+    <string-array name="FIRST">
+        <item>1ST Year CSE</item>
+        <item>1ST Year ECE</item>
+        <item>1ST Year CIVIL</item>
+        <item>1ST Year MECH</item>
+        <item>1ST Year EEE</item>
+    </string-array>
+
+    <string-array name="SECOND">
+        <item>2ND Year CSE</item>
+        <item>2ND Year ECE</item>
+        <item>2ND Year CIVIL</item>
+        <item>2ND Year MECH</item>
+        <item>2ND Year EEE</item>
+    </string-array>
+
+    <string-array name="THIRD">
+        <item>3RD Year CSE</item>
+        <item>3RD Year ECE</item>
+        <item>3RD Year CIVIL</item>
+        <item>3RD Year MECH</item>
+        <item>3RD Year EEE</item>
+    </string-array>
+
+    <string-array name="FOURTH">
+        <item>4TH Year CSE</item>
+        <item>4TH Year ECE</item>
+        <item>4TH Year CIVIL</item>
+        <item>4TH Year MECH</item>
+        <item>4TH Year EEE</item>
+    </string-array>
+
+
+</resources>

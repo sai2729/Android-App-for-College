@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "88944801029",
+    "firebase_url": "https://mysvit-361f6.firebaseio.com",
+    "project_id": "mysvit-361f6",
+    "storage_bucket": "mysvit-361f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88944801029:android:1cb8f94389245a42",
+        "android_client_info": {
+          "package_name": "com.example.myksvit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88944801029-55mam8j9avcgpmmv41pdn4st5b8mrjjq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myksvit",
+            "certificate_hash": "20a7b76baec670de9c7b33c9a7a5ef54db9ebb48"
+          }
+        },
+        {
+          "client_id": "88944801029-oq02cnjvhi51a6dkkm9e9e6okmufr58j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myksvit",
+            "certificate_hash": "4cd1bba6651d59ef4f44c065cdef54f398dd15c8"
+          }
+        },
+        {
+          "client_id": "88944801029-v6t5s70re22f2v557upso87m99bo0jb6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6whFfafh9daxoYV5leeM92zrJpxrbCLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "88944801029-v6t5s70re22f2v557upso87m99bo0jb6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

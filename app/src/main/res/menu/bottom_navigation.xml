@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"/>
+    <item
+        android:id="@+id/nav_Library"
+        android:icon="@drawable/ic_local_library_black_24dp"
+        android:title="Library"/>
+    <item
+        android:id="@+id/nav_Events"
+        android:icon="@drawable/ic_event_available_black_24dp"
+        android:title="Events"/>
+    <item
+        android:id="@+id/nav_Timetable"
+        android:icon="@drawable/ic_schedule_black_24dp"
+        android:title="Timetable"/>
+</menu>
