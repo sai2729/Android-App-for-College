@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">88944801029-v6t5s70re22f2v557upso87m99bo0jb6.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://mysvit-361f6.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">88944801029</string>
+    <string name="google_api_key" translatable="false">AIzaSyC6whFfafh9daxoYV5leeM92zrJpxrbCLU</string>
+    <string name="google_app_id" translatable="false">1:88944801029:android:1cb8f94389245a42</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC6whFfafh9daxoYV5leeM92zrJpxrbCLU</string>
+    <string name="google_storage_bucket" translatable="false">mysvit-361f6.appspot.com</string>
+    <string name="project_id" translatable="false">mysvit-361f6</string>
+</resources>
